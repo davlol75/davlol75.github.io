@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Code</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">Urban Code</p>
+            <nav>
+                <a href="#somos-urbancode">Sobre Nosotros</a>
+                <a href="#nuestros-codigos">Categorias</a>
+                <a href="#caracteristicas">Características</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>Estilo programado <br> para destacar.</h1>
+        <button>Sé parte del código</button>
+    </section>
+
+    <section id="somos-urbancode">
+        <div class="container"> 
+        <div class="img-container"></div>
+            <div class="texto">
+                <h2>Somos <span class="color-acento">Urban Code</span></h2>
+                <p>Urban Code es la marca que redefine el estilo urbano, combinando diseño contemporáneo, funcionalidad y actitud. Inspirados en la energía de la ciudad, creamos prendas únicas para quienes se atreven a destacar y expresarse sin límites.</p><br>
+                <p>Nuestro código es simple: ropa cómoda, versátil y cargada de personalidad, diseñada para acompañarte en cada paso de tu día. Con Urban Code, el estilo no solo te viste, te define.</p><br>
+                <h4>Urban<span class="color-acento"> Code</span>: decodificando la moda, programando el futuro.</h4>
+            </div>
+        </div>
+    </section>
+    
+    <section id="nuestros-codigos">
+        <div class="container">
+            <h2><span class="color-acento">Code</span> Dress</h2>
+            <div class="programas">
+                <div class="carta">
+                    <h3>Debugging</h3>
+                    <p>Esta categoría es para quienes buscan un look relajado, cómodo y sin complicaciones. Perfecto para el día a día, cuando solo quieres estar en tu mejor forma sin que nada te frene.</p>
+                    <button>Ver categoria</button>
+                </div>
+                <div class="carta">
+                    <h3>Full Stack</h3>
+                    <p>Para quienes saben cómo equilibrar estilo y funcionalidad. Este código de vestimenta es ideal para las ocasiones que requieren un toque más profesional, pero sin perder el espíritu moderno.</p>
+                    <button>Ver categoria</button>
+                </div>
+                <div class="carta">
+                    <h3>Compiler</h3>
+                    <p>Cuando necesitas llevar tu estilo al siguiente nivel. Aquí el objetivo es hacer que todos noten tu presencia con un look pulido y sofisticado, perfecto para reuniones importantes o noches especiales.</p>
+                    <button>Ver categoria</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="caracteristicas">
+        <div class="container">
+            <ul>
+                <li>✓ Durabilidad y <span class="color-acento">Calidad</span></li>
+                <li>✓ Diseño <span class="color-acento">Innovador</span></li>
+                <li>✓ Comodidad Sin <span class="color-acento">Compromisos</span></li>
+                <li>✓ Versatilidad para <span class="color-acento">Cada Ocasión</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="final">
+        <h2>¿Tu <span class="color-acento">código</span> de estilo está listo para compilar?</h2>
+        <button>Compila tu look aquí</button>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="footer-row">
+
+                    <div class="footer-links">
+                        <h4>Compañia</h4>
+                        <ul>
+                            <li><a href="#">Nosotros</a></li>
+                            <li><a href="#">Nuestros servicios</a></li>
+                            <li><a href="#">Politica de privacidad</a></li>
+                            <li><a href="#">Afiliate</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-links">
+                        <h4>Ayuda</h4>
+                        <ul>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Compras</a></li>
+                            <li><a href="#">Envios</a></li>
+                            <li><a href="#">Estatus de orden</a></li>
+                            <li><a href="#">Pago</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-links">
+                        <h4>Tienda</h4>
+                        <ul>
+                            <li><a href="#">Ropa</a></li>
+                            <li><a href="#">Zapatos</a></li>
+                            <li><a href="#">Accesorios</a></li>
+                        </ul>
+                    </div>
+                
+                    <div class="footer-links">
+                        <h4>Siguenos</h4>
+                        <div class="social-links">
+                            <a href="#" ><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" ><i class="fab fa-instagram"></i></a>
+                            <a href="#" ><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Aquí va el código JavaScript que añadirá la clase .solid al hacer scroll
+        window.onscroll = function() {
+          var header = document.querySelector('header');
+          
+          // Si el scroll es mayor que 50px, se agrega la clase 'solid'
+          if (window.scrollY > 50) {
+            header.classList.add('solid');
+          } else {
+            header.classList.remove('solid');
+          }
+        };
+      </script>
+</body>
+</html>
